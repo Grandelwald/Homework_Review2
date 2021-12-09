@@ -5,7 +5,9 @@
       <map>
         <entry key="app/src/main/res/drawable/rectangle_pink_rounded_corner_border.xml" value="0.2675925925925926" />
         <entry key="app/src/main/res/drawable/rectangle_pink_rounded_corner_btn.xml" value="0.29322916666666665" />
+        <entry key="app/src/main/res/layout/activity_home.xml" value="0.26618705035971224" />
         <entry key="app/src/main/res/layout/activity_main.xml" value="0.371824480369515" />
+        <entry key="app/src/main/res/layout/activity_sign_in.xml" value="0.1598731884057971" />
         <entry key="app/src/main/res/layout/activity_sign_up.xml" value="0.30638077363355515" />
       </map>
     </option>

@@ -6,4 +6,150 @@
     android:layout_height="match_parent"
     tools:context=".HomeActivity">
 
+    <TextView
+        android:id="@+id/tv_app_name"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginEnd="40dp"
+        android:text="SOPTHub"
+        android:textAlignment="center"
+        android:textColor="#EF6493"
+        android:textSize="45sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/iv_profile"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:maxWidth="200dp"
+        android:maxHeight="200dp"
+        android:adjustViewBounds="true"
+        app:layout_constraintTop_toBottomOf="@+id/tv_app_name"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="100dp"
+        android:layout_marginRight="100dp"
+        android:src="@drawable/ic_launcher_background"
+        />
+
+    <TextView
+        android:id="@+id/tv_profile_name"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/iv_profile"
+        android:layout_marginTop="40dp"
+        app:layout_constraintStart_toStartOf="@id/iv_profile"
+        app:layout_constraintEnd_toEndOf="@id/iv_profile"
+        android:layout_marginRight="60dp"
+        android:layout_marginLeft="10dp"
+        android:text="이름"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:textSize="10sp"
+        />
+
+    <TextView
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toTopOf="@id/tv_profile_name"
+        app:layout_constraintBottom_toBottomOf="@id/tv_profile_name"
+        app:layout_constraintStart_toEndOf="@id/tv_profile_name"
+        app:layout_constraintEnd_toEndOf="@id/iv_profile"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:text="이호재"
+        android:textAlignment="viewStart"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:textSize="10sp"
+        />
+
+    <TextView
+        android:id="@+id/tv_profile_age"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/tv_profile_name"
+        android:layout_marginTop="20dp"
+        app:layout_constraintStart_toStartOf="@id/iv_profile"
+        app:layout_constraintEnd_toEndOf="@id/iv_profile"
+        android:layout_marginRight="60dp"
+        android:layout_marginLeft="10dp"
+        android:text="나이"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:textSize="10sp"
+        />
+
+    <TextView
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toTopOf="@id/tv_profile_age"
+        app:layout_constraintBottom_toBottomOf="@id/tv_profile_age"
+        app:layout_constraintStart_toEndOf="@id/tv_profile_age"
+        app:layout_constraintEnd_toEndOf="@id/iv_profile"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:text="24"
+        android:textAlignment="viewStart"
+        android:textColor="@color/black"
+        android:textSize="10sp"
+        android:textStyle="bold"
+        />
+
+    <TextView
+        android:id="@+id/tv_profile_MBTI"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/tv_profile_age"
+        android:layout_marginTop="20dp"
+        app:layout_constraintStart_toStartOf="@id/iv_profile"
+        app:layout_constraintEnd_toEndOf="@id/iv_profile"
+        android:layout_marginRight="60dp"
+        android:layout_marginLeft="10dp"
+        android:text="MBTI"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:textSize="10sp"
+        />
+
+    <TextView
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toTopOf="@id/tv_profile_MBTI"
+        app:layout_constraintBottom_toBottomOf="@id/tv_profile_MBTI"
+        app:layout_constraintStart_toEndOf="@id/tv_profile_MBTI"
+        app:layout_constraintEnd_toEndOf="@id/iv_profile"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        android:text="INFP"
+        android:textAlignment="viewStart"
+        android:textColor="@color/black"
+        android:textSize="10sp"
+        android:textStyle="bold"
+        />
+
+    <TextView
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="간단한 소개 안녕하세요~~~"
+        android:textStyle="bold"
+        android:textSize="10dp"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        app:layout_constraintTop_toBottomOf="@id/tv_profile_MBTI"
+        android:layout_marginTop="25dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        />
 </androidx.constraintlayout.widget.ConstraintLayout>
